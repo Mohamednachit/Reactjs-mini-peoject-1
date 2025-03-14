@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Reactjs-mini-peoject-1/static/css/main.1511a139.css",
+    "main.js": "/Reactjs-mini-peoject-1/static/js/main.01d221f3.js",
+    "static/js/453.19271d68.chunk.js": "/Reactjs-mini-peoject-1/static/js/453.19271d68.chunk.js",
+    "index.html": "/Reactjs-mini-peoject-1/index.html",
+    "main.1511a139.css.map": "/Reactjs-mini-peoject-1/static/css/main.1511a139.css.map",
+    "main.01d221f3.js.map": "/Reactjs-mini-peoject-1/static/js/main.01d221f3.js.map",
+    "453.19271d68.chunk.js.map": "/Reactjs-mini-peoject-1/static/js/453.19271d68.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1511a139.css",
+    "static/js/main.01d221f3.js"
+  ]
+}
