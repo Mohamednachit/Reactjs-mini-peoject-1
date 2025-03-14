@@ -1,0 +1,76 @@
+/* Product.css */
+
+
+  
+  td {
+    vertical-align: middle !important;
+    padding: 18px !important;
+    border-bottom: 1px solid #eee;
+  }
+  
+  /* Style des badges de catégorie */
+  .badge {
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: 500;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .badge:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  
+  /* Style des images */
+  img {
+    max-width: 150px !important;
+    height: auto !important;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Style des prix */
+  td:nth-child(3) {
+    color: #28a745;
+    font-weight: 600;
+    font-size: 1.1em;
+  }
+  
+  /* Style des descriptions */
+  td:nth-child(4) {
+    color: #6c757d;
+    font-size: 0.9em;
+    max-width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    td {
+      display: block;
+      text-align: right;
+      border-bottom: 1px solid #ddd;
+    }
+  
+    td::before {
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 5px;
+      color: #6c757d;
+    }
+    
+    img {
+      max-width: 100px !important;
+    }
+  }
